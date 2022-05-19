@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref } from "vue";
 
-defineProps<{ msg: string }>()
+defineProps<{ msg: string }>();
 
-const count = ref(0)
+const count = ref(0);
 </script>
 
 <template>
@@ -33,7 +33,10 @@ const count = ref(0)
   </p>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+h1 {
+  color: $color-pink-700;
+}
 a {
   color: #42b983;
 }
